@@ -15,6 +15,8 @@ int32_t main(void){
 	};
 
 	std::cin>>ddd;
-	std::cout<<dc[ddd]<<std::endl;
+	if(dc.count(ddd)>0) std::cout<<dc[ddd]<<std::endl;
+	else std::cout<<"DDD nao cadastrado"<<std::endl;
+
 	
 }
