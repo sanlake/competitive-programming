@@ -1,9 +1,9 @@
 #include <iostream>
 
 int32_t main(void){
-	int n;
-	std::cin>>n;
+    int n;
+    std::cin>>n;
 
-	for(int i=2; i<10000; i+=n) 
-		std::cout<<i<<std::endl;
+    for(int i=2; i<10000; i+=n) 
+        std::cout<<i<<std::endl;
 }
