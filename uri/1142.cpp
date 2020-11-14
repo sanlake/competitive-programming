@@ -6,7 +6,7 @@ int32_t main(void){
     std::cin>>n;
 
     for(int i=0; i<n; i++){
-    std::cout<<++c<<" "<<++c<<" "<<++c<<" PUM"<<std::endl;
-    c++;
+        std::cout<<++c<<" "<<++c<<" "<<++c<<" PUM"<<std::endl;
+        c++;
     }
 }
