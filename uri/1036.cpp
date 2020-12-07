@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-int main(){
+int32_t main(void){
     double A,B,C,delta,r1,r2;
     
     std::cin>>A>>B>>C;
