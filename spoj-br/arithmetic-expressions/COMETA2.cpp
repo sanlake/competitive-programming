@@ -1,7 +1,8 @@
+#define DESYNC std::ios_base::sync_with_stdio(false); std::cin.tie(0); std::cout.tie(0);
 #include <iostream>
 
-int32_t main(void){
+int32_t main(void){ DESYNC
 	int a;
 	std::cin>>a;
-	std::cout<<a+(76-(((a-10)%76)))<<std::endl;
+	std::cout<<a+(76-(((a-10)%76)))<<'\n';
 }
