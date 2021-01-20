@@ -9,6 +9,5 @@
         "sec-fetch-user": "1",
         "sec-fetch-dest": "document",
         "referer": "https://www.urionlinejudge.com.br/judge/pt/problems/index/1",
-        "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-	"cookie": "csrfToken=<XYZ> judge=<XYZ> __cfduid=<XYZ>"
+        "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
 }

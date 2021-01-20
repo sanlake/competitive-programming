@@ -5,7 +5,11 @@ from bs4 import BeautifulSoup
 with open('header.json', 'r') as headerFile:
     content=headerFile.read()
 
+with open ('cookies.local', 'r') as cookiesFile:
+    cookie=cookiesFile.read()
+
 headers=json.loads(content)
+headers["cookie"]=cookie.strip()
 
 resource="https://www.urionlinejudge.com.br/judge/pt/problems/index/1"
 
