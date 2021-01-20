@@ -16,7 +16,6 @@ for page in range(1,12):
     response = requests.get(resource, headers=headers, params={'page':page})
     soup = BeautifulSoup(response.text, "lxml")
     lines = soup.find_all('tr',{"class":["impar","par"]})
-    print(lines)
     for line in lines:
         cols = line.find_all("td",{"class":["id","tiny"]})
         if cols:
