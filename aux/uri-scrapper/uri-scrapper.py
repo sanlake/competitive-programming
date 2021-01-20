@@ -11,7 +11,7 @@ resource="https://www.urionlinejudge.com.br/judge/pt/problems/index/1"
 
 outputBuffer = []
 
-for page in range(1,12):
+for page in range(1,13):
     print("Scrapping ",str(page)+"/12")
     response = requests.get(resource, headers=headers, params={'page':page})
     soup = BeautifulSoup(response.text, "lxml")
