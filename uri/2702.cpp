@@ -1,6 +1,7 @@
+#define DESYNC std::ios_base::sync_with_stdio(false); std::cin.tie(0); std::cout.tie(0);
 #include<iostream>
 
-int32_t main(void){
+int32_t main(void){ DESYNC
     int a1,a2,b1,b2,c1,c2,s=0;
     std::cin>>a1>>b1>>c1>>a2>>b2>>c2;
 

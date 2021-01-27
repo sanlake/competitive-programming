@@ -1,7 +1,8 @@
+#define DESYNC std::ios_base::sync_with_stdio(false); std::cin.tie(0); std::cout.tie(0);
 #include <iostream>
 #include <vector>
 
-int32_t main(void){
+int32_t main(void){ DESYNC
     int n,q;
     std::vector<double> p={4.00,4.50,5.00,2.00,1.50};
     

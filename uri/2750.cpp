@@ -1,6 +1,7 @@
+#define DESYNC std::ios_base::sync_with_stdio(false); std::cin.tie(0); std::cout.tie(0);
 #include <iostream>
 
-int32_t main(void){
+int32_t main(void){ DESYNC
 
     std::string dec[16] = {" 8", " 9", "10", "11", "12", "13", "14", "15"};
     std::string hex[16] = {" 8", " 9", " A", " B", " C", " D", " E", " F"};

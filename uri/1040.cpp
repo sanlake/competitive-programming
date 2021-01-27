@@ -1,6 +1,7 @@
+#define DESYNC std::ios_base::sync_with_stdio(false); std::cin.tie(0); std::cout.tie(0);
 #include <iostream>
 
-int32_t main(void){
+int32_t main(void){ DESYNC
     double n1,n2,n3,n4,n5,m1,m2;
     std::cin>>n1>>n2>>n3>>n4;
     m1=(n1*2+n2*3+n3*4+n4)/10.0;
