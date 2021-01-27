@@ -1,6 +1,8 @@
+#define DESYNC std::ios_base::sync_with_stdio(false); std::cin.tie(0); std::cout.tie(0);
+
 #include <iostream>
 
-int32_t main(void){
+int32_t main(void){ DESYNC
     int q,n,s,t=0;
     std::cin>>q;
 
@@ -13,5 +15,5 @@ int32_t main(void){
         if(s>1) t++;
     }
     
-    std::cout<<t<<std::endl;
+    std::cout<<t<<'\n';
 }
