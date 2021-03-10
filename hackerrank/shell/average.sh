@@ -5,4 +5,4 @@ for i in `seq 1 1 $n`; do
     sum=$((x+sum))
 done
 
-echo "scale=3;$sum/$n" | bc -l | xargs printf "%.3f\n"
+echo "scale=4;$sum/$n" | bc -l | xargs printf "%.3f\n"
