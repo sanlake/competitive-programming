@@ -1,1 +1,1 @@
-cat | paste - - -
+cat | paste -sd $';;\n'
