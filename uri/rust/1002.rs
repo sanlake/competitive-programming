@@ -5,7 +5,7 @@ fn get_float() -> f64 {
 }
 
 fn main() {
-    let n = get_float();
+    let n: f64 = get_float();
     let pi: f64 = 3.14159;
     println!("A={:.4}", pi*n*n);
 }

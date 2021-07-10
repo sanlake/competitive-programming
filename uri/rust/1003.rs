@@ -5,7 +5,6 @@ fn get_input() -> i64 {
 }
 
 fn main() {
-    let a = get_input();
-    let b = get_input();
+    let (a, b): (i64, i64) = ( get_input(), get_input() );
     println!("SOMA = {}", a+b);
 }
